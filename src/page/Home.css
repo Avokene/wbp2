@@ -1,0 +1,29 @@
+.Home {
+  display: flex;
+  background-color: black;
+  border-width: 1px;
+  border-color: aqua;
+  align-items: 'center';
+  justify-content: center;
+  height: 700px;
+}
+
+.Home-half {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.Title-text {
+  margin-top: 100px;
+  margin-inline: 100px;
+  color:white;
+  font-size: calc(48px + 2vmin);
+}
+
+.Body-text {
+  margin-top: 50px;
+  margin-inline: 100px;
+  color:white;
+  font-size: calc(10px + 1vmin);
+}
